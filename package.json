@@ -3,8 +3,8 @@
     "description" : "Use with node-imap's ImapMessage. Pipe like a pro.",
     "homepage"    : "https://github.com/daxxog/imap-message-stream",
     "main"        : "imap-message-stream.js",
-    "version"     : "0.0.1",
-    "engines": { "node" : ">=0.7.0" },
+    "version"     : "0.0.2",
+    "engines": { "node" : ">= 0.4.x" },
     "maintainers": [{
         "name"  : "David Volm",
         "email" : "david@volminator.com",
@@ -15,6 +15,6 @@
         "url"  : "https://github.com/daxxog/imap-message-stream.git"
     }],
     "dependencies": {
-        "bufferstream": "*"
+        "bufferstream": "0.5.1"
     }
 }
